@@ -1,2 +1,9 @@
-git config user.name "ercainz"
-git config user.email "ercainz@gmail.com"
+#!/bin/bash
+
+a=1
+while [ $a -le 10 ]
+do
+    echo $a
+    a=$((a+1))
+done
+
